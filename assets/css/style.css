@@ -28,6 +28,15 @@
     margin: auto;
     
 }
+.navbar-social-media{
+    margin-left: 10px;
+    
+}
+
+
+.navbar-social-media-circle{
+    color: #00788A;
+}
 
 .ul-navbar-nav-li-a{
     color: #4A5658;
@@ -59,7 +68,22 @@
     font-family: 'Josefin Sans', sans-serif;
     color: #00788A;
 }
+.header-wrap-button-div{
+    text-align: center;
+    margin-left: 420px;
+    margin-top: 100px;
+    
+}
 
-.header-wrap-buton{
-    margin-left: 15px;
+.header-wrap-button{
+    width: 200px;
+    height: 50px;
+    background-color: #00BFC4;
+    color: #F8F5FF;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-wrap-button:hover{
+    background-color: #00788A;
 }
