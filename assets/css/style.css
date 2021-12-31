@@ -87,3 +87,23 @@
 .header-wrap-button:hover{
     background-color: #00788A;
 }
+
+.input-group {
+    margin-top: 600px;
+    width: 300px;
+    margin-left: auto;
+    padding: 20px; ;
+}
+
+.input-group .button{
+    color: #fff;
+    background-color: #00BFC4;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 80px;
+    outline: none;
+    cursor: pointer;
+    transition: .5s;
+}
+
+
