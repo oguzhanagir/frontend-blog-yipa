@@ -95,36 +95,58 @@
 
 
 }
-.input {
-    
-    margin-left: 420px;
-    padding-top: 80px;
-    width: 340px;
-    
-
-}
-
-.button {
-    color: #fff;
-    background-color: #00BFC4;
-    text-decoration: none;
-    border-radius: 5px;
-    width: 80px;
-    outline: none;
-    cursor: pointer;
-    transition: .5s;
-    
-    
-    margin-left: 780px;
-    margin-bottom:100px;
-    
-}
-
 .subscribe-heading{
     color: #fff;
     font-family:'Josefin Sans', sans-serif ;
     text-align: center;
     padding-top: 20px;
 }
+
+
+.subscribe-input {
+    text-align: center;
+    margin-top: 100px;
+    padding-bottom: 150px;
+    
+}
+
+
+
+.input-mail{
+    width: 330px;
+    height: 70px;
+    border-radius: 9px;
+    opacity: 0.3;
+    background-color: #74DCDF;
+    box-shadow: 2px 5px  #000;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+   
+    
+    
+    
+}
+
+::-webkit-input-placeholder {
+    color: #000;
+    
+ }
+  
+
+.button {
+    width: 170px;
+    height: 70px;
+    border-radius: 9px;
+    color: #191C2F;
+    background-color: #fff;
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+    transition: .5s;
+    margin-left: 15px;
+   font-family: 'Poppins', sans-serif;
+    
+}
+
 
 
