@@ -1,36 +1,18 @@
-*{
+body{
     margin: 0;
     padding: 0;
-
-}
-
-.header{    
-    height: 923px;
+    display: flex;
+    flex-direction: column;
     
 }
 
 
-.header-nav{
-    width: 1440px;
-    height: 120px;
-}
+
 
 .container{
     width: 1170px;
     height: 50px;
     margin-top: 50px;
-  
-}
-
-
-
-.navbar-nav{
-    margin: auto;
-    
-}
-.navbar-social-media{
-    margin-left: 10px;
-    
 }
 
 
@@ -52,26 +34,41 @@
     
 }
 
+
+
+
+.header-wrap{
+    position:relative;
+    
+}
+
+
 .header-wrap-image{
-    position:relative
+    margin-left: 130px; 
+    
 }
 
-.header-wrap-text{
+.header-wrap-content{
     position:absolute;
-    left:10px;
-    top:10px
+    
+    left: 170px;
+    top: 130px;
 }
+.header-wrap-text-div{
+    padding-left: 410px;
 
-.header-wrap-text h1{
-    margin-left: 420px;
-    margin-top: 50px;
+}
+.header-wrap-text{    
     font-family: 'Josefin Sans', sans-serif;
     color: #00788A;
+    
 }
+
+
 .header-wrap-button-div{
     text-align: center;
-    margin-left: 420px;
-    margin-top: 100px;
+    margin-left: 400px;
+    margin-top: 160px;
     
 }
 
@@ -88,13 +85,18 @@
     background-color: #00788A;
 }
 
+
+
+
+
+
 .subscribe-container{
     background-color: #00788A;
-    width: 1170px;
-    height:280px;
-
+    text-align: center;
+    
 
 }
+
 .subscribe-heading{
     color: #fff;
     font-family:'Josefin Sans', sans-serif ;
@@ -103,43 +105,34 @@
 }
 
 
-.subscribe-input {
-    margin-left: 420px;
-    margin-top: 90px;
-    
-}
-
 
 
 .button {
     width: 170px;
     height: 50px;
+    margin-top: 30px;
     border-radius: 9px;
     opacity: 0.8;
     color: #191C2F;
     background-color: ghostwhite;
     font-family: 'Poppins', sans-serif;
-    margin-left: 90px;
-    margin-top: 15px;
+    
     
 }
 
 .button:hover{
         background-color: #e6e6e6;
-        
         color: #000;
-
 }
-
 
 
 .wrap-input100 {
     position: relative;
     width: 350px;
     z-index: 1;
-    margin-bottom: 10px;
     opacity: 0.9;
-    
+    margin-left: 580px;
+    margin-top: 50px;
   }
   
   .input100 {
@@ -147,9 +140,8 @@
     font-size: 15px;
     line-height: 1.5;
     color: #666666;
-  
     display: block;
-    width: 100%;
+    width: 350px;
     background: #e6e6e6;
     height: 50px;
     border-radius: 25px;
