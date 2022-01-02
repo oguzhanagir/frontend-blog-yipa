@@ -16,14 +16,18 @@ body{
 }
 
 
+
+
 .navbar-social-media-circle{
     color: #00788A;
 }
+
 
 .ul-navbar-nav-li-a{
     color: #4A5658;
     font-size: 14px;
     font-family: 'Poppins', sans-serif;
+    
     
 }
 
@@ -46,6 +50,7 @@ body{
 .header-wrap-image{
     margin-left: 130px; 
     
+    
 }
 
 .header-wrap-content{
@@ -56,6 +61,7 @@ body{
 }
 .header-wrap-text-div{
     padding-left: 410px;
+    
 
 }
 .header-wrap-text{    
@@ -128,6 +134,7 @@ body{
 
 .wrap-input100 {
     position: relative;
+    text-align: center;
     width: 350px;
     z-index: 1;
     opacity: 0.9;
