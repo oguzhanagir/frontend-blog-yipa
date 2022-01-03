@@ -9,11 +9,6 @@ body{
 
 
 
-.container{
-    width: 1170px;
-    height: 50px;
-    margin-top: 50px;
-}
 
 
 
@@ -44,39 +39,26 @@ body{
 .header-wrap{
     position:relative;
     
-}
+} 
 
 
-.header-wrap-image{
-    margin-left: 130px; 
-    
-    
-}
+
 
 .header-wrap-content{
     position:absolute;
-    
+    text-align: center;
     left: 170px;
     top: 130px;
 }
-.header-wrap-text-div{
-    padding-left: 410px;
-    
 
-}
+
 .header-wrap-text{    
     font-family: 'Josefin Sans', sans-serif;
     color: #00788A;
-    
 }
 
 
-.header-wrap-button-div{
-    text-align: center;
-    margin-left: 400px;
-    margin-top: 160px;
-    
-}
+
 
 .header-wrap-button{
     width: 200px;
@@ -96,7 +78,7 @@ body{
 
 
 
-.subscribe-container{
+.subscribe-newsletter{
     background-color: #00788A;
     text-align: center;
     
@@ -109,7 +91,6 @@ body{
     text-align: center;
     padding-top: 20px;
 }
-
 
 
 
@@ -134,11 +115,9 @@ body{
 
 .wrap-input100 {
     position: relative;
-    text-align: center;
     width: 350px;
     z-index: 1;
     opacity: 0.9;
-    margin-left: 580px;
     margin-top: 50px;
   }
   
