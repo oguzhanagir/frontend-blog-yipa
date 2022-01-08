@@ -217,14 +217,15 @@ a {
 .header-wrap-content{
     position:absolute;
     text-align: center;
-    left: 170px;
-    top: 130px;
+    left: 480px;
+    top: 190px;
 }
 
 
 .header-wrap-text{    
     font-family: 'Josefin Sans', sans-serif;
     color: #00788A;
+    
 }
 
 
@@ -284,11 +285,12 @@ a {
 
 
 .wrap-input100 {
-    position: relative;
+    position:relative;
     width: 350px;
     z-index: 1;
     opacity: 0.9;
     margin-top: 50px;
+    margin-left: 560px;
   }
   
   .input100 {
@@ -367,7 +369,9 @@ a {
   .input100:focus + .focus-input100 + .symbol-input100 {
     color: #00BFC4;
     padding-left: 28px;
+    
   }
 
+  
 
   
