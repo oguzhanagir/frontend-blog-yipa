@@ -372,6 +372,16 @@ a {
     
   }
 
+  .btn-group{
+    background-color: #F8F5FF;
+    position: absolute;
+    margin-left: 650px;
+    margin-top: 60px;
+    padding-left: 5px;
+    border-radius: 25px;
+
+  }
+
   .feature{
     background-color: #fff;   
     height: 600px;
@@ -379,20 +389,28 @@ a {
   
   
   .feature-image{
-    position: absolute;
-    width: 276px;
-    height: 323px;
+    position:static;
+    width: 116px;
+    height: 123px;
+    left: 582px;
     top: 1200px;
     border-radius: 12px;
-  }
-  
-  #img2{
-    left: 582px;
+    display:inline;
+    
+    
   }
 
-  .img-2{
-    left: 582px;
-  }
+  ul {overflow:hidden; }
+  ul li {float:left; margin-right:50px; list-style-type: none;}
+  ul li img {border:2px solid #fff; margin-top: 150px; margin-left: 120px;}
+  .clear {clear: both}
+
+  
+  
+ 
+
+  
+  
 
   
 
