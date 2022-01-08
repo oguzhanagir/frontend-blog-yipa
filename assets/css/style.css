@@ -376,15 +376,25 @@ a {
     background-color: #fff;   
     height: 600px;
   }
-
+  
+  
   .feature-image{
     position: absolute;
     width: 276px;
     height: 323px;
-    left: 582px;
     top: 1200px;
     border-radius: 12px;
   }
+  
+  #img2{
+    left: 582px;
+  }
+
+  .img-2{
+    left: 582px;
+  }
+
+  
 
   
 
