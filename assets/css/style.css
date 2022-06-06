@@ -107,21 +107,15 @@ a {
 
 
 ._nav_logo {
-  width: 55px;
-  height: 55px;
-  display: inline-block;
+  width: 85px;
+  height: 85px;
+  border-radius: 10px;
+  margin-left: 50px;
+  margin-bottom: 10px;
 }
-._nav_logo_text{
-  font-family: 'Poppins', sans-serif;
-  font-size: 18px;
-  font-weight: bold;
-  margin-left: 45px;
-  line-height: 24px;
-  color: #2D1D61 !important;
-  -webkit-transition: .2s all ease;
-  -o-transition: .2s all ease;
-  transition: .2s all ease;
-}
+
+
+
 
 ._header_online_nav_link {
   font-family: 'Poppins', sans-serif;
@@ -556,7 +550,7 @@ padding: 21px;
 
 /* Footer Start */
 .footer{
-  margin-top: 100px;
+ 
   height: auto;
   background-color: #EAFBFF;
 }
